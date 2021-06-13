@@ -123,3 +123,21 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.me{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    
+}
+.me-img-wrapper{
+    position: relative;
+}
+.me-img{
+    position: absolute;
+    left: -300px;
+    top: -300px;
+}
+.me-text{
+    z-index: 2;
+    position: relative;
+    text-shadow: 3px 2px 8px white;
+}
